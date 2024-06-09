@@ -26,3 +26,15 @@ name.pop() # Removes the last item
 name.reverse()
 name.sort()
 print(name)
+
+#Printing a list
+for i in enumerate(name, start=1):
+    print(i)
+
+#joining a list
+name_join = " - ".join(name)# - can change its just a joiner
+print(name_join)
+
+#Spliting a list
+name_split = name_join.split(" - ")
+print(name_split)
